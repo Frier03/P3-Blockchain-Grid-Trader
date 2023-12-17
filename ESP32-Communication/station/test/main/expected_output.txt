@@ -1,0 +1,16 @@
+#### Running all the registered tests #####
+
+./main/main.c:21:test_wifi_init_sta:PASS
+./main/main.c:22:test_psa_init:PASS
+./main/main.c:23:test_key_pair_init:PASS
+./main/main.c:24:test_export_public_key:PASS
+./main/main.c:25:test_import_public_key:PASS
+./main/main.c:26:test_sign_message:PASS
+./main/main.c:27:test_verify_message:PASS
+./main/main.c:28:test_create_udp_socket:PASS
+./main/main.c:29:test_send_udp_message:PASS
+./main/main.c:30:test_payload_decoder:PASS
+
+-----------------------
+10 Tests 0 Failures 0 Ignored 
+OK

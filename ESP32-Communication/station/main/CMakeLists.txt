@@ -1,0 +1,1 @@
+idf_component_register(SRCS "blockchain/chain.c" "graphics/graphics.c" "networking/communication.c" "cryptography/crypto.c" "networking/wifi_connect.c" "networking/lasetsockets.c" "main.c" INCLUDE_DIRS ".")

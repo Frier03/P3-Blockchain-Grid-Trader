@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS 
+        "../../main/networking/wifi_connect.c"
+        "../../main/cryptography/crypto.c"
+        "../../main/networking/lasetsockets.c"
+        "../../main/networking/communication.c"
+        "test_wifi_connect.c" 
+        "test_crypto.c"
+        "test_lasetsockets.c"
+        "test_communication.c"
+        "main.c"
+    INCLUDE_DIRS 
+        "../../main"
+)
